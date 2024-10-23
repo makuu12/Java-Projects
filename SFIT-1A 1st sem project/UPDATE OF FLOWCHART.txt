@@ -1,0 +1,40 @@
+kilowatt  per hour * used hour = power consumption
+power consumption * price unit = consumed per day
+consumed per day * days of week = weekly consume
+consumed per day * days in a year = yearly consume
+
+
+washing machine
+SYSTEM:		SELECT CATEGORIES ( washing machine, lighting, fans, computer gadgets, aircon, general appliances )
+USER:		*Enter number 1*
+SYSTEM:		SELECT APPLIANCE (LIST)
+USER:		*Enter number 1 in list*
+SYSTEM:		YOU CHOOSE ____________ 
+SYSTEM:		ENTER KILOWATT PER HOUR (average kilowatt)
+USER:		*Enter '1.10'*
+SYSTEM:		ENTER THE HOURS OF USE
+USER:		*Enter 5 hours*
+SYSTEM:		DO YOU WANT TO CALCULATE AGAIN (YES OR NO)
+USER:		*Enter yes*
+///SAME PROCESS///	
+SYSTEM:		DO YOU WANT TO CALCULATE AGAIN (YES OR NO)
+USER:		*Enter no*
+_________________________________________
+SHOW TOTAL OUTPUT:
+APPLIANCES: appliance 1
+DAILY CONSUMPTION:
+WEEKLY CONSUMPTION:
+YEARKY CONSUMPTION:
+_________________________________________
+SHOW TOTAL OUTPUT:
+APPLIANCES: appliance 1
+DAILY CONSUMPTION:
+WEEKLY CONSUMPTION:
+YEARKY CONSUMPTION:
+_________________________________________
+
+SHOW TOTAL OUTPUT OF ALL APPLIANCES:
+DAILY CONSUMPTION:
+WEEKLY CONSUMPTION:
+YEARKY CONSUMPTION:
+

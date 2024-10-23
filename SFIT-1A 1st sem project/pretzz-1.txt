@@ -1,0 +1,69 @@
+
+
+
+
+APPLIANCES						KWH	COST	
+
+
+/////////////////////////////////WASHING MACHINE//////////////////////////////
+Fully Automatic-Top Load, Conventional 		 	0.0982 	0.96
+Automatic-Front Load, Conventional 			0.8757 	8.53
+Fully Automatic-Front Load, Conventional 	 	1.4703 	14.33
+Semi-Automatic, Twin Tub 				0.0649 	0.63
+Washer-Dryer, Inverter 				 	4.4500 	43.36
+
+
+
+
+/////////////////////////////////LIGHTING//////////////////////////////
+
+
+3.3 W LED Bulb, Daylight 			 	0.0030 	0.03
+Christmas Light, LED, White 			 	0.0060 	0.06
+UVC Lamp Tube 						0.0300 	0.29 
+Rechargeable UVC Light Wand 			 	0.0018 	0.02
+
+
+
+
+/////////////////////////////////FANS//////////////////////////////
+
+
+
+Air Cooler 						0.0985 	0.96
+Electric Industrial 	 				0.1168 	1.14
+Exhaust Fan 		 				0.0268 	0.26
+Air Purifier 						0.0172 	0.17
+
+
+////////////////////////////////COMPUTER AND GADGETS//////////////////////////////
+
+Ink Tank System Printer 				0.0103  0.10
+LED Television 					 	0.0640  0.62
+Portable Videoke Systems 				0.0079  0.08
+All-In-One Array System 			 	0.0302  0.29
+
+////////////////////////////////AIRCON//////////////////////////////
+
+Split-Type, Inverter 				        0.3253  3.17
+Window-Type, Inverter 		 	                0.2387  2.33
+Split-Type, Solar Hybrid 	 	                0.2098  2.04
+CaWindow-Type, Conventional 	 		        0.4511  4.40
+
+
+////////////////////////////////GENERAL APPLIANCES//////////////////////////////
+
+
+
+Flat Iron 			                        0.2682  2.61
+Vacuum Cleaner 		 	                        1.1500  11.21 
+Steam Iron 	             	                        0.5102  4.97
+Water Dispenser 	 	                        0.1660  1.62 
+
+
+
+
+
+
+
+
