@@ -1,0 +1,510 @@
+________________");
+      }
+      
+      else {
+          System.out.println("YOU ENTERED WRONG NUMBER");
+          System.out.println("CHOOSE BIKE MODEL:");
+		    System.out.println("[1] GIANT RINCON DISC 2020 27.5 AUTHENTIC Mountain Bike MTB (Blue)");
+		    System.out.println("[2] GIANT talon 3 2020 model(Black)");
+		    System.out.println("[3] GIANT TEMPT 3 2020 27.5 AUTHENTIC Mountain Bike MTB(Gray)");
+		    System.out.println("[4] Giant ATX 3 27.5 2019 Model(black and blue)");
+		    System.out.println("[5] giant scr 2 2020 model(Black)");
+            giant=in.nextInt();
+      }
+      }
+                  else if (brand==2) {
+		  System.out.println("YOU CHOOSE BRAND: TRINX");
+		    System.out.println("CHOOSE BIKE MODEL:");
+		    System.out.println("[1] Trinx SPEAR T106 26 16 Frame Fat Bike Mechanical Disc Brake(Sky Blue)");
+		    System.out.println("[2] TRINX M1000 26er- 30 SPEED ALLOY FRAME Mountain Bike(Yellow Green)");
+		    System.out.println("[3] Trinx SPEAK T106 26 16 Frame Fat Bike Mechanical Disc Brake 2018 MODEL(Blue)");
+		    System.out.println("[4] MTB TRINX M136 ELITE 27.5 ALLOY MECHANICAL(black and orange)");
+		    System.out.println("[5] TRINX C782 27.5 HYDRAULIC MOUNTAIN BIKE BICYCLE(Neon Blue)");
+            trinx=in.nextInt();
+            
+            if (trinx==1) {
+             System.out.println("YOU CHOOSE: Trinx SPEAR T106 26 16 Frame Fat Bike Mechanical Disc Brake");
+             System.out.println("DEPOSIT = 599");
+             System.out.println("PRICE: 229(per day)"); 
+             System.out.println("HOW MAY DAY/S YOU WANT TO RENT THIS BIKE");
+             days = in.nextInt();
+             
+             switch (days) {
+          case 1: System.out.println("1"); break;
+		  case 2: System.out.println("2"); break;
+		  case 3: System.out.println("3"); break;
+		  case 4: System.out.println("4"); break;
+		  case 5: System.out.println("5"); break;
+		  case 6: System.out.println("6"); break;
+		  case 7: System.out.println("7"); break;
+		  default: System.out.println("YOU ENTERED WRONG NUMBER");
+		  System.out.println("MINIMUM DAY  = 1 DAY");
+		  System.out.println("MAXIMUM DAYS = 7 DAYS");
+		  days = in.nextInt();
+		  break;
+             }
+             total = 229*days;
+             System.out.println("price + rent of date ="+total);
+             finaltotal = total+599;
+			      System.out.println("__________________________________________________");
+			      System.out.println("RECEIPT:");
+			      System.out.println("name: "+firstname+" "+MI+ " "+lastname);
+			      System.out.println("address: "+address+" Philippines");
+			      System.out.println("date of rent: "+month+"/"+date+"/2020");
+			      System.out.println("Brand: TRINX");
+			      System.out.println("Model: Trinx SPEAR T106 26 16 Frame Fat Bike Mechanical Disc Brake");
+			      System.out.println("Color: Sky blue");
+			      System.out.println("price: 299(per day)");
+			      System.out.println("days of rent:"+days);
+			      System.out.println("deposit: 599");
+			      System.out.println("total: "+finaltotal);
+			      System.out.println("__________________________________________________");
+			      System.out.print("REMINDER:if the bike you rent has ");
+			      System.out.println(" not return on the due date,");
+			      System.out.println("our company were adding you 10%");
+			      System.out.println("   interest per day. ");
+		       	  System.out.println("__________________________________________________");
+      }
+      
+      else if (trinx==2) {
+             System.out.println("YOU CHOOSE: TRINX M1000 26er- 30 SPEED ALLOY FRAME Mountain Bike");
+             System.out.println("DEPOSIT = 525");
+             System.out.println("PRICE: 229(per day)"); 
+             System.out.println("HOW MAY DAY/S YOU WANT TO RENT THIS BIKE");
+             days = in.nextInt();
+             
+             switch (days) {
+          case 1: System.out.println("1"); break;
+		  case 2: System.out.println("2"); break;
+		  case 3: System.out.println("3"); break;
+		  case 4: System.out.println("4"); break;
+		  case 5: System.out.println("5"); break;
+		  case 6: System.out.println("6"); break;
+		  case 7: System.out.println("7"); break;
+		  default: System.out.println("YOU ENTERED WRONG NUMBER");
+		  System.out.println("MINIMUM DAY  = 1 DAY");
+		  System.out.println("MAXIMUM DAYS = 7 DAYS");
+		  days = in.nextInt();
+		  break;
+             }
+             total = 210*days;
+             System.out.println("price + rent of date ="+total);
+             finaltotal = total+525;
+			      System.out.println("__________________________________________________");
+			      System.out.println("RECEIPT:");
+			      System.out.println("name: "+firstname+" "+MI+ " "+lastname);
+			      System.out.println("address: "+address+" Philippines");
+			      System.out.println("date of rent: "+month+"/"+date+"/2020");
+			      System.out.println("Brand: TRINX");
+			      System.out.println("Model: TRINX M1000 26er- 30 SPEED ALLOY FRAME Mountain Bike");
+			      System.out.println("Color: Yellow Green");
+			      System.out.println("price: 210(per day)");
+			      System.out.println("days of rent:"+days);
+			      System.out.println("deposit: 525");
+			      System.out.println("total: "+finaltotal);
+			      System.out.println("__________________________________________________");
+			      System.out.print("REMINDER:if the bike you rent has ");
+			      System.out.println(" not return on the due date,");
+			      System.out.println("our company were adding you 10%");
+			      System.out.println("   interest per day. ");
+		       	  System.out.println("__________________________________________________");
+      }
+      
+      else if (trinx==3) {
+             System.out.println("YOU CHOOSE: Trinx SPEAK T106 26 16 Frame Fat Bike Mechanical Disc Brake 2018 MODEL");
+             System.out.println("DEPOSIT = 600");
+             System.out.println("PRICE: 249(per day)"); 
+             System.out.println("HOW MAY DAY/S YOU WANT TO RENT THIS BIKE");
+             days = in.nextInt();
+             
+             switch (days) {
+          case 1: System.out.println("1"); break;
+		  case 2: System.out.println("2"); break;
+		  case 3: System.out.println("3"); break;
+		  case 4: System.out.println("4"); break;
+		  case 5: System.out.println("5"); break;
+		  case 6: System.out.println("6"); break;
+		  case 7: System.out.println("7"); break;
+		  default: System.out.println("YOU ENTERED WRONG NUMBER");
+		  System.out.println("MINIMUM DAY  = 1 DAY");
+		  System.out.println("MAXIMUM DAYS = 7 DAYS");
+		  days = in.nextInt();
+		  break;
+             }
+             total = 240*days;
+             System.out.println("price + rent of date ="+total);
+             finaltotal = total+600;
+			      System.out.println("__________________________________________________");
+			      System.out.println("RECEIPT:");
+			      System.out.println("name: "+firstname+" "+MI+ " "+lastname);
+			      System.out.println("address: "+address+" Philippines");
+			      System.out.println("date of rent: "+month+"/"+date+"/2020");
+			      System.out.println("Brand: TRINX");
+			      System.out.println("Model: Trinx SPEAK T106 26 16 Frame Fat Bike Mechanical Disc Brake 2018 MODEL");
+			      System.out.println("Color: Blue");
+			      System.out.println("price: 240(per day)");
+			      System.out.println("days of rent:"+days);
+			      System.out.println("deposit: 600");
+			      System.out.println("total: "+finaltotal);
+			      System.out.println("__________________________________________________");
+			      System.out.print("REMINDER:if the bike you rent has ");
+			      System.out.println(" not return on the due date,");
+			      System.out.println("our company were adding you 10%");
+			      System.out.println("   interest per day. ");
+		       	  System.out.println("__________________________________________________");
+      }
+      
+      else if (trinx==4) {
+             System.out.println("YOU CHOOSE: MTB TRINX M136 ELITE 27.5 ALLOY MECHANICAL");
+             System.out.println("DEPOSIT = 600");
+             System.out.println("PRICE: 249(per day)"); 
+             System.out.println("HOW MAY DAY/S YOU WANT TO RENT THIS BIKE");
+             days = in.nextInt();
+             
+             switch (days) {
+          case 1: System.out.println("1"); break;
+		  case 2: System.out.println("2"); break;
+		  case 3: System.out.println("3"); break;
+		  case 4: System.out.println("4"); break;
+		  case 5: System.out.println("5"); break;
+		  case 6: System.out.println("6"); break;
+		  case 7: System.out.println("7"); break;
+		  default: System.out.println("YOU ENTERED WRONG NUMBER");
+		  System.out.println("MINIMUM DAY  = 1 DAY");
+		  System.out.println("MAXIMUM DAYS = 7 DAYS");
+		  days = in.nextInt();
+		  break;
+             }
+             total = 150*days;
+             System.out.println("price + rent of date ="+total);
+             finaltotal = total+375;
+			      System.out.println("__________________________________________________");
+			      System.out.println("RECEIPT:");
+			      System.out.println("name: "+firstname+" "+MI+ " "+lastname);
+			      System.out.println("address: "+address+" Philippines");
+			      System.out.println("date of rent: "+month+"/"+date+"/2020");
+			      System.out.println("Brand: TRINX");
+			      System.out.println("Model: MTB TRINX M136 ELITE 27.5 ALLOY MECHANICAL");
+			      System.out.println("Color: Black and Orange");
+			      System.out.println("price: 150(per day)");
+			      System.out.println("days of rent:"+days);
+			      System.out.println("deposit: 375");
+			      System.out.println("total: "+finaltotal);
+			      System.out.println("__________________________________________________");
+			      System.out.print("REMINDER:if the bike you rent has ");
+			      System.out.println(" not return on the due date,");
+			      System.out.println("our company were adding you 10%");
+			      System.out.println("   interest per day. ");
+		       	  System.out.println("__________________________________________________");
+      }
+      else if (trinx==5) {
+             System.out.println("YOU CHOOSE:TRINX C782 27.5 HYDRAULIC MOUNTAIN BIKE BICYCLE");
+             System.out.println("DEPOSIT = 425");
+             System.out.println("PRICE: 170(per day)"); 
+             System.out.println("HOW MAY DAY/S YOU WANT TO RENT THIS BIKE");
+             days = in.nextInt();
+             
+             switch (days) {
+          case 1: System.out.println("1"); break;
+		  case 2: System.out.println("2"); break;
+		  case 3: System.out.println("3"); break;
+		  case 4: System.out.println("4"); break;
+		  case 5: System.out.println("5"); break;
+		  case 6: System.out.println("6"); break;
+		  case 7: System.out.println("7"); break;
+		  default: System.out.println("YOU ENTERED WRONG NUMBER");
+		  System.out.println("MINIMUM DAY  = 1 DAY");
+		  System.out.println("MAXIMUM DAYS = 7 DAYS");
+		  days = in.nextInt();
+		  break;
+             }
+             total = 170*days;
+             System.out.println("price + rent of date ="+total);
+             finaltotal = total+425;
+			      System.out.println("__________________________________________________");
+			      System.out.println("RECEIPT:");
+			      System.out.println("name: "+firstname+" "+MI+ " "+lastname);
+			      System.out.println("address: "+address+" Philippines");
+			      System.out.println("date of rent: "+month+"/"+date+"/2020");
+			      System.out.println("Brand: TRINX");
+			      System.out.println("Model: TRINX C782 27.5 HYDRAULIC MOUNTAIN BIKE BICYCLE");
+			      System.out.println("Color: Neon Blue");
+			      System.out.println("price: 150(per day)");
+			      System.out.println("days of rent:"+days);
+			      System.out.println("deposit: 425");
+			      System.out.println("total: "+finaltotal);
+			      System.out.println("__________________________________________________");
+			      System.out.print("REMINDER:if the bike you rent has ");
+			      System.out.println(" not return on the due date,");
+			      System.out.println("our company were adding you 10%");
+			      System.out.println("   interest per day. ");
+		       	  System.out.println("__________________________________________________");
+      }
+                          
+      
+      else {
+           System.out.println("YOU ENTERED WRONG NUMBER");
+           System.out.println("CHOOSE BIKE MODEL:");
+		    System.out.println("[1] Trinx SPEAR T106 26 16 Frame Fat Bike Mechanical Disc Brake(Sky Blue)");
+		    System.out.println("[2] TRINX M1000 26er- 30 SPEED ALLOY FRAME Mountain Bike(Gray)");
+		    System.out.println("[3] Trinx SPEAK T106 26 16 Frame Fat Bike Mechanical Disc Brake 2018 MODEL(Orange)");
+		    System.out.println("[4] MTB TRINX M136 ELITE 27.5 ALLOY MECHANICAL(Orange)");
+		    System.out.println("[5] TRINX C782 27.5 HYDRAULIC MOUNTAIN BIKE BICYCLE(Neon Blue)");
+            trinx=in.nextInt();
+                          }
+                  }
+      
+      else if (brand==3) {
+		    System.out.println("YOU CHOOSE BRAND: TREK");
+		    System.out.println("CHOOSE BIKE MODEL:");
+		    System.out.println("[1] Trek Marlin 5 (Blue)");
+		    System.out.println("[2] Trek Marlin 6 Year Model 2020(Black)");
+		    System.out.println("[3] TREK MARLIN 7 29 MOUNTAIN BIKE(Orange)");
+		    System.out.println("[4] TREK 2020 X-Caliber 7 BIKE(Red)");
+		    System.out.println("[5] TREK Pure S(Neon Blue)");
+            trek=in.nextInt();
+            
+            if (trek==1) {
+             System.out.println("YOU CHOOSE: Trek Marlin 5");
+             System.out.println("DEPOSIT = 1,115");
+             System.out.println("PRICE: 446(per day)"); 
+             System.out.println("HOW MAY DAY/S YOU WANT TO RENT THIS BIKE");
+             days = in.nextInt();
+             
+             switch (days) {
+          case 1: System.out.println("1"); break;
+		  case 2: System.out.println("2"); break;
+		  case 3: System.out.println("3"); break;
+		  case 4: System.out.println("4"); break;
+		  case 5: System.out.println("5"); break;
+		  case 6: System.out.println("6"); break;
+		  case 7: System.out.println("7"); break;
+		  default: System.out.println("YOU ENTERED WRONG NUMBER");
+		  System.out.println("MINIMUM DAY  = 1 DAY");
+		  System.out.println("MAXIMUM DAYS = 7 DAYS");
+		  days = in.nextInt();
+		  break;
+             }
+             total = 446*days;
+             System.out.println("price + rent of date ="+total);
+             finaltotal = total+1115;
+			      System.out.println("__________________________________________________");
+			      System.out.println("RECEIPT:");
+			      System.out.println("name: "+firstname+" "+MI+ " "+lastname);
+			      System.out.println("address: "+address+" Philippines");
+			      System.out.println("date of rent: "+month+"/"+date+"/2020");
+			      System.out.println("Brand: TREK");
+			      System.out.println("Model: Trek Marlin 5");
+			      System.out.println("Color: Blue");
+			      System.out.println("price: 446(per day)");
+			      System.out.println("days of rent:"+days);
+			      System.out.println("deposit: 1,115");
+			      System.out.println("total: "+finaltotal);
+			      System.out.println("__________________________________________________");
+			      System.out.print("REMINDER:if the bike you rent has ");
+			      System.out.println(" not return on the due date,");
+			      System.out.println("our company were adding you 10%");
+			      System.out.println("   interest per day. ");
+		       	  System.out.println("__________________________________________________");
+      } 
+      else if (trek==2) {
+             System.out.println("YOU CHOOSE:Trek Marlin 6 Year Model 2020");
+             System.out.println("DEPOSIT = 1,395");
+             System.out.println("PRICE: 558(per day)"); 
+             System.out.println("HOW MAY DAY/S YOU WANT TO RENT THIS BIKE");
+             days = in.nextInt();
+             
+             switch (days) {
+          case 1: System.out.println("1"); break;
+		  case 2: System.out.println("2"); break;
+		  case 3: System.out.println("3"); break;
+		  case 4: System.out.println("4"); break;
+		  case 5: System.out.println("5"); break;
+		  case 6: System.out.println("6"); break;
+		  case 7: System.out.println("7"); break;
+		  default: System.out.println("YOU ENTERED WRONG NUMBER");
+		  System.out.println("MINIMUM DAY  = 1 DAY");
+		  System.out.println("MAXIMUM DAYS = 7 DAYS");
+		  days = in.nextInt();
+		  break;
+             }
+             total = 558*days;
+             System.out.println("price + rent of date ="+total);
+             finaltotal = total+1395;
+			      System.out.println("__________________________________________________");
+			      System.out.println("RECEIPT:");
+			      System.out.println("name: "+firstname+" "+MI+ " "+lastname);
+			      System.out.println("address: "+address+" Philippines");
+			      System.out.println("date of rent: "+month+"/"+date+"/2020");
+			      System.out.println("Brand: TREK");
+			      System.out.println("Model: Trek Marlin 6 Year Model 2020");
+			      System.out.println("Color: Gray");
+			      System.out.println("price: 558(per day)");
+			      System.out.println("days of rent:"+days);
+			      System.out.println("deposit: 1,395");
+			      System.out.println("total: "+finaltotal);
+			      System.out.println("__________________________________________________");
+			      System.out.print("REMINDER:if the bike you rent has ");
+			      System.out.println(" not return on the due date,");
+			      System.out.println("our company were adding you 10%");
+			      System.out.println("   interest per day. ");
+		       	  System.out.println("__________________________________________________");
+      } 
+      else if (trek==3) {
+             System.out.println("YOU CHOOSE:TREK MARLIN 7 29 MOUNTAIN BIKE");
+             System.out.println("DEPOSIT = 1,500");
+             System.out.println("PRICE: 600(per day)"); 
+             System.out.println("HOW MAY DAY/S YOU WANT TO RENT THIS BIKE");
+             days = in.nextInt();
+             
+             switch (days) {
+          case 1: System.out.println("1"); break;
+		  case 2: System.out.println("2"); break;
+		  case 3: System.out.println("3"); break;
+		  case 4: System.out.println("4"); break;
+		  case 5: System.out.println("5"); break;
+		  case 6: System.out.println("6"); break;
+		  case 7: System.out.println("7"); break;
+		  default: System.out.println("YOU ENTERED WRONG NUMBER");
+		  System.out.println("MINIMUM DAY  = 1 DAY");
+		  System.out.println("MAXIMUM DAYS = 7 DAYS");
+		  days = in.nextInt();
+		  break;
+             }
+             total = 600*days;
+             System.out.println("price + rent of date ="+total);
+             finaltotal = total+1500;
+			      System.out.println("__________________________________________________");
+			      System.out.println("RECEIPT:");
+			      System.out.println("name: "+firstname+" "+MI+ " "+lastname);
+			      System.out.println("address: "+address+" Philippines");
+			      System.out.println("date of rent: "+month+"/"+date+"/2020");
+			      System.out.println("Brand: TREK");
+			      System.out.println("Model: TREK MARLIN 7 29 MOUNTAIN BIKE");
+			      System.out.println("Color: Orange");
+			      System.out.println("price: 600(per day)");
+			      System.out.println("days of rent:"+days);
+			      System.out.println("deposit: 1,500");
+			      System.out.println("total: "+finaltotal);
+			      System.out.println("__________________________________________________");
+			      System.out.print("REMINDER:if the bike you rent has ");
+			      System.out.println(" not return on the due date,");
+			      System.out.println("our company were adding you 10%");
+			      System.out.println("   interest per day. ");
+		       	  System.out.println("__________________________________________________");
+      } 
+      else if (trek==4) {
+             System.out.println("YOU CHOOSE:TREK 2020 X-Caliber 7 BIKE");
+             System.out.println("DEPOSIT = 1,500");
+             System.out.println("PRICE: 600(per day)"); 
+             System.out.println("HOW MAY DAY/S YOU WANT TO RENT THIS BIKE");
+             days = in.nextInt();
+             
+             switch (days) {
+          case 1: System.out.println("1"); break;
+		  case 2: System.out.println("2"); break;
+		  case 3: System.out.println("3"); break;
+		  case 4: System.out.println("4"); break;
+		  case 5: System.out.println("5"); break;
+		  case 6: System.out.println("6"); break;
+		  case 7: System.out.println("7"); break;
+		  default: System.out.println("YOU ENTERED WRONG NUMBER");
+		  System.out.println("MINIMUM DAY  = 1 DAY");
+		  System.out.println("MAXIMUM DAYS = 7 DAYS");
+		  days = in.nextInt();
+		  break;
+             }
+             total = 600*days;
+             System.out.println("price + rent of date ="+total);
+             finaltotal = total+1500;
+			      System.out.println("__________________________________________________");
+			      System.out.println("RECEIPT:");
+			      System.out.println("name: "+firstname+" "+MI+ " "+lastname);
+			      System.out.println("address: "+address+" Philippines");
+			      System.out.println("date of rent: "+month+"/"+date+"/2020");
+			      System.out.println("Brand: TREK");
+			      System.out.println("Model: TREK 2020 X-Caliber 7 BIKE");
+			      System.out.println("Color: Red");
+			      System.out.println("price: 600(per day)");
+			      System.out.println("days of rent:"+days);
+			      System.out.println("deposit: 1,500");
+			      System.out.println("total: "+finaltotal);
+			      System.out.println("__________________________________________________");
+			      System.out.print("REMINDER:if the bike you rent has ");
+			      System.out.println(" not return on the due date,");
+			      System.out.println("our company were adding you 10%");
+			      System.out.println("   interest per day. ");
+		       	  System.out.println("__________________________________________________");
+      } 
+      else if (trek==5) {
+             System.out.println("YOU CHOOSE: TREK Pure S");
+             System.out.println("DEPOSIT = 1,500");
+             System.out.println("PRICE: 600(per day)"); 
+             System.out.println("HOW MAY DAY/S YOU WANT TO RENT THIS BIKE");
+             days = in.nextInt();
+             
+             switch (days) {
+          case 1: System.out.println("1"); break;
+		  case 2: System.out.println("2"); break;
+		  case 3: System.out.println("3"); break;
+		  case 4: System.out.println("4"); break;
+		  case 5: System.out.println("5"); break;
+		  case 6: System.out.println("6"); break;
+		  case 7: System.out.println("7"); break;
+		  default: System.out.println("YOU ENTERED WRONG NUMBER");
+		  System.out.println("MINIMUM DAY  = 1 DAY");
+		  System.out.println("MAXIMUM DAYS = 7 DAYS");
+		  days = in.nextInt();
+		  break;
+             }
+             total = 600*days;
+             System.out.println("price + rent of date ="+total);
+             finaltotal = total+1500;
+			      System.out.println("__________________________________________________");
+			      System.out.println("RECEIPT:");
+			      System.out.println("name: "+firstname+" "+MI+ " "+lastname);
+			      System.out.println("address: "+address+" Philippines");
+			      System.out.println("date of rent: "+month+"/"+date+"/2020");
+			      System.out.println("Brand: TREK");
+			      System.out.println("Model: TREK Pure S");
+			      System.out.println("Color: Neon Blue");
+			      System.out.println("price: 600(per day)");
+			      System.out.println("days of rent:"+days);
+			      System.out.println("deposit: 1,500");
+			      System.out.println("total: "+finaltotal);
+			      System.out.println("__________________________________________________");
+			      System.out.print("REMINDER:if the bike you rent has ");
+			      System.out.println(" not return on the due date,");
+			      System.out.println("our company were adding you 10%");
+			      System.out.println("   interest per day. ");
+		       	  System.out.println("__________________________________________________");
+      } 
+      else {
+          System.out.println("YOU ENTERED WRONG NUMBER");
+          System.out.println("CHOOSE BIKE MODEL:");
+		    System.out.println("PLEASE TRY AGAIN");
+          System.out.println("CHOOSE BIKE MODEL:");
+		    System.out.println("[1] Trek Marlin 5 (Blue)");
+		    System.out.println("[2] Trek Marlin 6 Year Model 2020(Black)");
+		    System.out.println("[3] TREK MARLIN 7 29 MOUNTAIN BIKE(Orange)");
+		    System.out.println("[4] TREK 2020 X-Caliber 7 BIKE(Red)");
+		    System.out.println("[5] TREK Pure S(Neon Blue)");
+            trek=in.nextInt();
+      }
+	}
+              
+	else {
+	    System.out.println("YOU ENTERED YOU CHOOSE HAS NOT AVAILABLE");
+	    System.out.println("PLEASE TRY AGAIN");
+	    	System.out.println("choose brand of bike:");
+		System.out.println("[1] GIANT");
+		System.out.println("[2] TRINX");
+		System.out.println("[3] TREK");
+                 brand=in.nextInt();
+	    
+	}
+
+    }
+         
+
+}
